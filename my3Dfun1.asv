@@ -4,38 +4,35 @@
 
 x = linspace(-2,2,100);
 y = linspace(-4,4,100);
-[X,Y] = meshgrid(x,y);
-
+[X
 %%Function values
 
-Z = X.*exp(-X.^2 - Y.^2);
+z= ...
 
 %%Figure initialization
 
-figure(1)
+figure ...
     
 %%Plotting figure
 
-surf(X,Y,Z)
+surf ...
     
 %%Title
 
-title('z_A = xexp(-x^2 -y^2)')
+title
 
 %%Labels
 
-xlabel('x_A')
-ylabel('y_A')
-zlabel('z_A')
+xlabel...
     
 %%Grid
 
-grid on
+grid...
     
 %%Colormap
 
-colormap('hot(200)')
+colormap ...
     
 %%Shading
 
-shading('flat')
+shading ...
